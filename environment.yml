@@ -75,7 +75,6 @@ dependencies:
       - tokenizers==0.21.1
       - torch==2.6.0
       - tqdm==4.67.1
-      - transformers==4.52.0.dev0
       - triton==3.2.0
       - typing-extensions==4.13.2
       - tzdata==2025.2

@@ -1,0 +1,26 @@
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Cloned dependencies (likely built/installed into env)
+apex/
+fastmoe/
+
+# Environment files (usually local-specific)
+.env.local
+
+# Output/Log directories (if not needed in git)
+megatron_outputs/
+checkpoints/
+tensorboard/
+*.log
+
+# Data directories (if data is large or external)
+# data/
+# data_wikitext103/
+
+# Add other OS-specific or editor-specific files if needed
+.DS_Store
+*.swp
